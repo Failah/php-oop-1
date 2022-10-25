@@ -1,0 +1,25 @@
+/* generics */
+
+body {
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 546px;
+    height: 819px;
+}
+
+#fightclub,
+#avatar2009 {
+    background-color: grey;
+}
+
+#fightclub>div,
+#avatar2009>div {
+    padding: 10px 0px;
+}
+
+.container>.row {
+    column-gap: 20px;
+}
